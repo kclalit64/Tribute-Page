@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+html, body{
+    background-color: #c2c3c2; 
+    font-size: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+#image{
+    width: 100vw;
+    margin: -15px -63px;
+}
+
+#img-caption{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title{
+    max-width:100%;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;;
+}
+
+
+#quote-1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: -0.70px;
+    font-family: Quintessential;
+}
+
+@media(max-width: 690px){
+    #title{
+        font-size: 3rem;
+        letter-spacing: 5px;
+    }
+    #quote-1{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 400px){
+    #title{
+        letter-spacing: 2px;
+    }
+
+    #image{
+        width: 100%;
+        margin: -1.5rem auto;
+    }
+
+    #img-caption{
+        font-size: 1rem;
+    }
+
+}
+
+h2{
+    font-size: 2.4rem;
+    padding: 2rem 3rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 0rem -0.7rem;
+    margin-top: 7rem;
+    background-color: rgba(238, 236, 236, 0.65);
+}
+
+#tribute-info{
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 3rem 3rem;
+}
+
+@media(min-width:690px){
+    #tribute-info{
+        font-size: 2rem;
+    }
+}
+#work-collage{
+    width: 30rem;
+    margin: 0 auto;
+    padding: 4rem 0rem;
+}
+
+.movie-posters{
+    width: 15rem;
+    height: 23rem;
+}
+
+@media(min-width: 690px){
+    #about{
+        display:flex;
+    }
+
+    #work-collage{
+        width:300rem;
+    }
+    
+}
+
+#filmography{
+    padding: 2rem 2rem;
+}
+
+.works{
+    text-align: center;
+    width: 20rem;
+    height: 30rem;
+    margin: 7rem auto;
+    background-color: rgba(255,255,0,0.8);
+    padding-top: 2rem;
+}
+
+.movie-des{
+    font-size: 2rem;
+    margin: auto auto;
+    padding:1rem 1rem;
+}
+
+@media(min-width: 690px){
+
+    #filmography{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 5rem auto;
+        padding: 0rem 2rem;
+    }
+
+    .works{
+        min-width: 10rem;
+        margin: auto;
+        margin-top: 5rem;
+    }
+
+}
+#closing-quote{
+    margin: 2rem auto;
+    max-width: 50rem;
+}
+
+@media(min-width: 690px){
+    #closing-quote{
+        max-width: 70rem;
+    }
+}
+#quote{
+    background-color: white;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    font-size: 1.7rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#read-more{
+    background-color: cyan;
+    font-size: 1.7rem;
+    padding: 3rem;
+    text-align: center;
+    margin: 0rem -0.7rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    line-height: 10px;
+    margin: 0rem -0.75rem;
+    text-align: center;
+}
+
+#social{
+    display: flex;
+    width: 20rem;
+    margin: 4rem auto;
+    gap: 4rem;
+}
+
+.fill{
+    width: 7rem;
+    height: auto;
+}
